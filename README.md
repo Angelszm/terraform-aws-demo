@@ -1,5 +1,14 @@
-# Terraforming-AWS-Services
+## Terraforming-AWS-Services
 
+CloudFormation or Terraform
+Terraform 
+```
+✅ Cloud Support and other service support: Opensource, Support multi-clouds, e.g., Azure, GCP, and other services Jenkins, Kubernetes, etc.
+✅ Module support: You can create a module to reuse the template.
+✅ Command line: Terraform cli has simple syntax(terraform init)
+✅ Language support: Support Hashicorp configuration
+Ref from : Linkedin
+```
 
 
 ## AWS Resources
