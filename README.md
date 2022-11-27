@@ -44,6 +44,7 @@ https://www.pedroalonso.net/blog/using-terraform-to-automate-the-deployment-of-p
 - https://particule.io/en/blog/cicd-ecr-ecs/ (with Terraform)
 - https://webcaptioner.com/blog/2017/12/deploy-from-gitlab-to-aws-fargate/
 - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_passrole.html
+- https://www.architect.io/blog/2021-03-30/create-and-manage-an-aws-ecs-cluster-with-terraform/ {Full part}
 
 
 Terraform Notes: 
