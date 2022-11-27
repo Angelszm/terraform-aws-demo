@@ -78,6 +78,7 @@ API-driven workflow
 ```
 
 
+Learning : https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials/variables
 https://www.techbeatly.com/hashicorp-certified-terraform-associate-learning-exam-tips/
 
 
