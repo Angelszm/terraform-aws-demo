@@ -71,6 +71,11 @@ Terraform Core and Plugins
 
 HashiCorp Cloud Platform (Include Terraform as Part of Products)
 
+Terraform Cloud can store state to support Terraform runs on local machines, it works even better as a remote run environment. It supports two main workflows for performing Terraform runs:
+```
+VCS-driven workflow
+API-driven workflow
+```
 
 
 https://www.techbeatly.com/hashicorp-certified-terraform-associate-learning-exam-tips/
