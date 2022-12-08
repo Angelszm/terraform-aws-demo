@@ -10,6 +10,16 @@ Terraform
 Ref from : Linkedin
 ```
 
+Variables and Outputs 
+- Input Variables
+- Local Values
+- Output Values
+
+Terraform Data Types
+- Primiive (String, Number, Boolean)
+- Collection (List, Set, Map)
+- Structural (Tuple, Object)
+
 
 ## AWS Resources
 
@@ -87,3 +97,7 @@ Terraform Best Practices: https://www.terraform-best-practices.com/
 
 For Exam
 https://www.youtube.com/watch?v=V4waklkBC38
+
+
+
+
