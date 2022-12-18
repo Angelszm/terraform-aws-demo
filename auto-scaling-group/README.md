@@ -8,9 +8,10 @@
 - [x] Instance Profile
 - [x] IAM Role and Policy for s3 (From EC2)
 - [x] Default VPC Resource 
+- [x] Default Subnet Resource 
 - [x] Private Subnet for Nginx Server 
-- [x] Internet Gateway
-- [x] Route Table for Private Subnet
+- [x] <strike> Internet Gateway </strike> NAT Gateway
+- [x] Route Table for Private Subnet and to NAT Gateway
 - [x] Security Group for Nginx Server (All SSH to install Nginx Server)
 - [x] Instance for Nginx Server
 - [x] Security Group of Application Load Balancer
