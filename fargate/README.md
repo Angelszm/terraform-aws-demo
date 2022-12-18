@@ -1,0 +1,26 @@
+Terraform Setup
+- Security Group for Application Load Balancer  Done ✅ 
+    - Ingress ports (80 & 443) and Egress (Public)  ✅ 
+- Application Load Balancer ✅ 
+    - Attach above Security Group  ✅ 
+- Target Group ✅ 
+    - HTTP Container Port 8080 ✅ 
+- Load Balancer Listener ✅ 
+    - HTTPS 443 > Forward to Target Group ✅ 
+        - Add SSL/TLS Certificate ✅ 
+    - HTTP Port 80 > Redirect to 443 ✅ 
+- ECS Cluster (Done ✅ )
+    - Update Fargate Spot Cluster ✅ 
+    - Cluster Capacity Provider ✅ 
+- ECS Service 
+    - For Compute Config 
+        - Need to update Capacity Provider Strategy with Capacity Provider as Fargate Spot ✅ 
+    - For Networking 
+        - Attach VPC, Subnets with Data Source  ✅ 
+        - Need to Create one Security Group for ECS Service ✅ 
+            - Which include ingress with ALB Security Group ID ✅ 
+    - For Load Balancing Section ✅ 
+        - (Need to attach Existing Load Balancer and existing Target Group and Listener) ✅ 
+
+- Task Definition (will create with Json)
+    - Need to update Json File 
